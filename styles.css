@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.imgur.com/5br0m9D.jpg');
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.social-media a {
+    margin: 0 0.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #ffcc00;
+}
+
+.project, .post, .testimonial, .question {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
